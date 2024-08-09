@@ -1,0 +1,7 @@
+.eslintrc
+
+*.html
+*.css
+*.json
+*.yaml
+vite.config.ts

@@ -1,0 +1,32 @@
+{
+  "name": "tree",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "swagger": "node fetchSwaggerSchemas.mjs && npx openapi-typescript src/api/**/*.json --output ./"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/babel-preset-css-prop": "^11.11.0",
+    "@types/node": "^18.16.16",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4",
+    "vite": "5.4.0"
+  }
+}
